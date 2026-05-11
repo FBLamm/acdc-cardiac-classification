@@ -1,0 +1,11 @@
+imageType:
+    Original: {}
+
+featureClass:
+    shape: ['SurfaceArea']
+    # firstorder : []
+
+setting: 
+    binWidth: 25
+    force2D: true
+    normalize: true

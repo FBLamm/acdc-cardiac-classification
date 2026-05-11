@@ -1,0 +1,17 @@
+cat << 'EOF' > .gitignore
+# Ignorer le contenu de data mais garder le CSV
+data/*
+!data/dataset_complet_patients.csv
+
+# Ignorer les images médicales où qu'elles soient
+*.nii
+*.nii.gz
+
+# Ignorer les environnements virtuels
+venv/
+.virtualenvs/
+
+# Ignorer les caches
+__pycache__/
+.ipynb_checkpoints/
+EOF
