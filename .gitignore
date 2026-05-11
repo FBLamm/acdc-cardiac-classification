@@ -1,0 +1,22 @@
+# Ignorer tout le contenu du dossier data par défaut
+data/*
+*.nii
+*.nii.gz
+
+!data/dataset_complet_patients.csv
+
+venv/
+env/
+.env
+.virtualenvs/
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+.ipynb_checkpoints/
+
+.DS_Store
+Thumbs.db
